@@ -1,6 +1,6 @@
 # Battlefield 2042 Season 6 Steam Fixer
 
-This repository contains a PowerShell script and a Batch file to automate the uninstallation of "EA App" from a Windows machine. After uninstallation, it prompts the user to boot Battlefield 2042.
+This repository contains a PowerShell script and a Batch file to automate fixing the issue with Battlefield 2042 for Steam which has resulted from the update with Season 6.
 
 ## Table of Contents
 1. [Requirements](#requirements)
