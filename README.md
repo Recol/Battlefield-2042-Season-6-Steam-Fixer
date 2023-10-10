@@ -22,7 +22,7 @@ This repository contains a PowerShell script and a Batch file to automate the un
 
 ### Using the Batch File
 
-1. Double-click on `RunUninstallEAApp.bat` to run the program. This will execute the included PowerShell script.
+1. Double-click on `RunUninstallEAApp.bat` to run the program. If administrative privileges are not already provided, the script will automatically request them. This will then execute the included PowerShell script.
 
 **Note**: Running the Batch file will require administrative privileges.
 
