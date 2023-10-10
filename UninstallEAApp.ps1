@@ -1,7 +1,7 @@
 
 $programName = "EA app"
 Write-Host "Searching for $programName..."
-$program = Get-WmiObject -Query "SELECT * FROM Win32_Product WHERE (Name LIKE '%$programName%')"
+$program = Get-WmiObject -Query "SELECT * FROM Win32_Product WHERE (Name = '$programName')"
 
 # Check if the program is installed
 if ($program -eq $null) {
